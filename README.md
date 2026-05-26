@@ -15,8 +15,8 @@ Given a raw acquisition file from the rig, the pipeline:
 3. resolves the boundary temperatures from the slow-data log,
 4. evaluates the working-gas volume with the Sage Fourier series and the
    exact crank-slider kinematics,
-5. computes the pressure with three models — Experimental (measured),
-   Isothermal (Schmidt) and Adiabatic (Urieli) —,
+5. computes the pressure with three models: Experimental (measured),
+   Isothermal (Schmidt) and Adiabatic (Urieli);
 6. computes the refrigeration-mode performance metrics (COP, second-law
    efficiency) by a global energy balance,
 7. exports the P-V diagram and the metrics.
